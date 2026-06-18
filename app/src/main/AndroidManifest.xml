@@ -23,6 +23,12 @@
             </intent-filter>
         </activity>
 
+        <activity
+            android:name=".WorkActivity"
+            android:exported="false"
+            android:label="Work View"
+            android:theme="@style/Theme.Lab14" />
+
         <receiver android:name=".SimpleWidget"
             android:exported="true">
             <intent-filter>
